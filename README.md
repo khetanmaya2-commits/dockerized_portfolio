@@ -31,6 +31,9 @@ dockerized-portfolio-website/
 ├── .dockerignore
 └── README.md
 
+## Access Live Website : 
+http://khetanmaya2-commits.github.io/dockerized_portfolio/
+
 ## Docker Setup
 
 ### Build the Docker Image
