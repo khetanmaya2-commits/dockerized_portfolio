@@ -35,15 +35,21 @@ dockerized-portfolio-website/
 
 ### Build the Docker Image
 
+```bash
 docker build -t maya-portfolio .
+```
 
 ### Run the Container
 
+```bash
 docker run -d -p 8080:80 maya-portfolio
+```
 
-### Access the Website
+### Access Locally
 
+```text
 http://localhost:8080
+```
 
 ## Learning Outcomes
 
