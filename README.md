@@ -1,76 +1,39 @@
-# Dockerized Portfolio Website
+# Maya Khetan — Portfolio
 
-## Overview
+A modern and responsive personal portfolio built with **React.js and Tailwind CSS** to showcase my journey as a Computer Science student and my interests in **Cloud Computing and DevOps**.
 
-This project demonstrates the containerization of a personal portfolio website using Docker and Nginx. The website consists of static HTML, CSS, and asset files that are served through an Nginx web server running inside a Docker container.
+## ✨ Features
 
-The project showcases fundamental DevOps concepts such as containerization, image creation, port mapping, and deployment readiness.
+* Modern and professional UI
+* Fully responsive design
+* Smooth animations and transitions
+* Interactive navigation
+* Dark/light theme support
+* Resume view and download
+* Responsive project showcase
+* Mobile-friendly layout
+* Clean and reusable React components
 
-## Features
+## 🛠️ Built With
 
-* Responsive portfolio website
-* Containerized using Docker
-* Nginx web server configuration
-* Lightweight and portable deployment
-* Easy setup and execution
+* React.js
+* Tailwind CSS
+* JavaScript
+* Lucide React
 
-## Technologies Used
-
-* HTML5
-* CSS3
-* Docker
-* Nginx
-* Git & GitHub
-
-## Project Structure
-
-dockerized-portfolio-website/
-├── index.html
-├── style.css
-├── Dockerfile
-├── .dockerignore
-└── README.md
-
-## Access Live Website : 
-http://khetanmaya2-commits.github.io/dockerized_portfolio/
-
-## Docker Setup
-
-### Build the Docker Image
+## 🚀 Run Locally
 
 ```bash
-docker build -t maya-portfolio .
+git clone https://github.com/khetanmaya2-commits/maya_portfolio.git
+cd YOUR_REPOSITORY
+npm install
+npm run dev
 ```
 
-### Run the Container
+## 🌐 Live Demo
 
-```bash
-docker run -d -p 8080:80 maya-portfolio
-```
+[View Portfolio](https://maya-portfolio-seven.vercel.app/)
 
-### Access Locally
+---
 
-```text
-http://localhost:8080
-```
-
-## Learning Outcomes
-
-* Created and managed Docker images
-* Built and ran containers
-* Implemented Nginx for static website hosting
-* Practiced Git and GitHub version control
-* Learned container-based deployment workflows
-
-## Future Enhancements
-
-* Deploy the containerized application on AWS EC2
-* Implement CI/CD using Jenkins or GitHub Actions
-* Add monitoring and logging
-* Enhance portfolio content with additional projects
-
-## Author
-
-Maya Khetan
-
-Aspiring DevOps Engineer and Cloud Enthusiast passionate about building scalable and deployable solutions using modern cloud and container technologies.
+**Designed & Developed by Maya Khetan**
